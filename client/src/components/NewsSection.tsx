@@ -17,7 +17,7 @@ export function NewsSection() {
       views: "850K Views"
     },
     {
-      title: "OILFUNX EXPLAINED",
+      title: "REFINERY EXPLAINED",
       duration: "1:15",
       views: "2.5M Views"
     }
@@ -57,7 +57,7 @@ export function NewsSection() {
                 </a>
               </h3>
               <p className="text-xl md:text-2xl font-serif text-muted-foreground leading-relaxed mb-6">
-                In a moment of awakening that could redefine global finance, millions are realizing that green paper is just paper. OilFunX represents the paradigm shift back to energy assets, but with the speed of Solana.
+                In a moment of awakening that could redefine global finance, millions are realizing that green paper is just paper. Refinery represents the paradigm shift back to energy assets, but with the speed of Solana.
               </p>
               
               <div className="relative aspect-video w-full bg-card overflow-hidden group border-2 border-border shadow-[8px_8px_0px_0px_var(--color-border)] dark:shadow-none">
@@ -108,7 +108,7 @@ export function NewsSection() {
                  </div>
                </div>
                <p className="font-mono text-sm text-muted-foreground mb-2">NOW PLAYING:</p>
-               <p className="font-bold text-lg leading-tight">"WE ARE SO BACK" - THE OILFUNX DOCUMENTARY</p>
+               <p className="font-bold text-lg leading-tight">"WE ARE SO BACK" - THE REFINERY DOCUMENTARY</p>
             </div>
 
           </div>
@@ -188,7 +188,7 @@ export function NewsSection() {
 
            <div className="bg-metal-gold/10 border-l-4 border-metal-gold p-4 mt-8">
              <p className="font-bold text-xl uppercase italic">
-               "We are literally giving you OIL. Hold the token, get paid in real assets. Inflation is theft, OilFunX is the vault."
+               "We are literally giving you OIL. Hold the token, get paid in real assets. Inflation is theft, Refinery is the vault."
              </p>
            </div>
         </div>

@@ -87,7 +87,7 @@ export function Tokenomics() {
                   : "Distributions will begin automatically when the token launches. No staking required."}
             </p>
             <a 
-              href="https://x.com/Oilfunx" 
+              href="https://x.com/Refinery" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white font-bold uppercase tracking-wider hover:bg-zinc-800 transition-colors border-2 border-border"

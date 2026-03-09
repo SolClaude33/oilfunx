@@ -96,7 +96,7 @@ export function LiveDashboard() {
                <div className="w-3 h-3 rounded-full bg-yellow-500 border border-yellow-700 dark:border-yellow-500 dark:bg-yellow-500/20"></div>
                <div className="w-3 h-3 rounded-full bg-green-500 border border-green-700 dark:border-green-500 dark:bg-green-500/20"></div>
              </div>
-             <span className="text-black dark:text-green-500 font-bold">OILFUNX_MONITOR_V2.1</span>
+             <span className="text-black dark:text-green-500 font-bold">REFINERY_MONITOR_V2.1</span>
           </div>
           <div className="flex gap-4 text-[10px] md:text-xs text-green-800 dark:text-green-600 uppercase tracking-wider font-bold">
              {isLive && countdown && (
