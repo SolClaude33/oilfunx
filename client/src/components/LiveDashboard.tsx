@@ -136,18 +136,6 @@ export function LiveDashboard() {
               </div>
             </div>
 
-            <div className="w-full h-px bg-black dark:bg-green-900 opacity-10 dark:opacity-30" />
-
-            <div className="space-y-2">
-              <h3 className="text-black dark:text-blue-400 text-xs uppercase tracking-widest mb-1 font-bold">Token Buybacks ({stats?.buybackPercentage || "20"}%)</h3>
-              <div className="text-3xl font-black text-blue-600 dark:text-blue-400 tracking-tighter tabular-nums" data-testid="text-buyback">
-                {(stats?.totalTokenBuyback || 0).toFixed(2)} OILFUNX
-              </div>
-              <div className="text-xs text-blue-700 dark:text-blue-400 font-bold bg-blue-100 dark:bg-transparent inline-block px-2 py-0.5 border border-blue-200 dark:border-none uppercase">
-                {stats?.majorHoldersPercentage || "70"}% Major | {stats?.mediumHoldersPercentage || "20"}% Token Buybacks | {stats?.buybackPercentage || "20"}% Buyback
-              </div>
-            </div>
-
             <div className="mt-auto pt-6 space-y-3">
                <div className="flex justify-between text-xs text-black dark:text-green-800 font-bold uppercase items-center gap-2">
                   <span>$OIL_CONTRACT</span>
