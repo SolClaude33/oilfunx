@@ -79,7 +79,7 @@ export function Tokenomics() {
         
         <div className="mt-16 text-center border-t-4 border-border pt-8 max-w-2xl mx-auto">
             <p className="text-xl font-mono text-foreground mb-4 font-bold bg-metal-gold text-black inline-block px-4 py-1 border-2 border-black">
-              Total fees distributed: {totalFees.toFixed(4)} OIL
+              Total fees distributed: {totalFees.toFixed(4)} USOon
             </p>
             <p className="text-sm text-muted-foreground font-serif italic mb-6">
                 {stats?.tokenMint 

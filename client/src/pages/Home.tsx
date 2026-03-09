@@ -45,9 +45,7 @@ export default function Home() {
                 <a href="#" className="text-gray-400 hover:text-metal-gold transition-colors">Pump.fun</a>
             </div>
             <p className="text-gray-600 text-sm max-w-2xl mx-auto">
-                DISCLAIMER: This is a memecoin. The "OIL" mentioned is a tokenized asset. 
-                We are not financial advisors. We are just a bull made of metal on the internet. 
-                Price may go up, price may go down. Don't risk money you can't afford to lose to a robot bull.
+                DISCLAIMER: This is a memecoin. The USOon mentioned is a tokenized asset based on oil price. We are not financial advisors. We are just an oil bull on the internet riding the waves of the crude market. Price may go up, price may go down. Don't risk money you can't afford to lose chasing barrels.
             </p>
             <p className="text-gray-700 text-xs mt-8">
                 © 2025 OILFUNX CORP. ALL RIGHTS RESERVED.

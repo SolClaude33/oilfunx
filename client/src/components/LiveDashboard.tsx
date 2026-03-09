@@ -120,7 +120,7 @@ export function LiveDashboard() {
                 {formatSmall((stats?.totalProtocolFees ?? 0), 6)}
               </div>
               <div className="text-xs text-black dark:text-green-600 font-bold bg-green-200 dark:bg-transparent dark:text-green-500 inline-block px-2 py-0.5 border border-black dark:border-none uppercase">
-                {stats?.tokenMint ? "ACTIVE" : "PENDING"} | {stats?.goldDistributionPercentage || "70"}% → $OIL
+                {stats?.tokenMint ? "ACTIVE" : "PENDING"} | {stats?.goldDistributionPercentage || "70"}% → $USOon
               </div>
             </div>
 
@@ -138,7 +138,7 @@ export function LiveDashboard() {
 
             <div className="mt-auto pt-6 space-y-3">
                <div className="flex justify-between text-xs text-black dark:text-green-800 font-bold uppercase items-center gap-2">
-                  <span>$OIL_CONTRACT</span>
+                  <span>$USOon_CONTRACT</span>
                   <a 
                     href="https://solscan.io/token/rpydAzWdCy85HEmoQkH5PVxYtDYQWjmLxgHHadxondo"
                     target="_blank"
@@ -190,7 +190,7 @@ export function LiveDashboard() {
                      </div>
                      <div className="flex items-center gap-4 flex-wrap">
                        <span className="font-bold tabular-nums text-black dark:text-green-100">
-                         {entry.goldDistributed.toFixed(4)} OIL
+                         {entry.goldDistributed.toFixed(4)} USOon
                        </span>
                        {entry.transaction ? (
                          <a
