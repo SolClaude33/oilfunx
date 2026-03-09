@@ -94,12 +94,12 @@ export function Hero() {
           transition={{ delay: 0.3 }}
           className="max-w-2xl mx-auto space-y-8"
         >
-          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-12 md:mt-16">
             <button className="w-full md:w-auto px-8 py-4 bg-black text-white font-black text-lg uppercase tracking-widest hover:bg-zinc-800 transition-transform hover:-translate-y-1 shadow-[0_4px_0_rgba(0,0,0,0.5)] border-2 border-black cursor-pointer" data-testid="button-buy">
               Buy Refinery
             </button>
             <a href="#dashboard">
-              <button className="w-full md:w-auto px-8 py-4 bg-transparent border-2 border-black dark:border-white text-black dark:text-white font-black text-lg uppercase tracking-widest hover:bg-black/10 dark:hover:bg-white/10 transition-transform hover:-translate-y-1 cursor-pointer" data-testid="button-dashboard">
+              <button className="w-full md:w-auto px-8 py-4 bg-white border-2 border-black dark:border-white text-black font-black text-lg uppercase tracking-widest hover:bg-gray-100 dark:hover:bg-gray-100 transition-transform hover:-translate-y-1 cursor-pointer" data-testid="button-dashboard">
                 Protocol Dashboard
               </button>
             </a>
