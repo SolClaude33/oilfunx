@@ -30,7 +30,7 @@ Cada documento = una línea del **System Logs** en el dashboard.
 | Campo | Tipo | Descripción |
 |-------|------|-------------|
 | `transaction` | string | Signature de la transacción (ej. `5abc...xyz`) |
-| `goldDistributed` | number | Cantidad de GOLD repartida en esa tx |
+| `goldDistributed` | number | Cantidad de OIL repartida en esa tx |
 | `date` | string | Fecha/hora (ISO recomendado, ej. `2025-01-28T12:00:00Z`) |
 
 **Ejemplo de documento:**  

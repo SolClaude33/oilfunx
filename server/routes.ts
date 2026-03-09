@@ -52,7 +52,7 @@ export async function registerRoutes(
         totalProtocolFees,
         feesConvertedToGold,
         totalBurned: 0,
-        goldMint: "GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A",
+        goldMint: "rpydAzWdCy85HEmoQkH5PVxYtDYQWjmLxgHHadxondo",
         tokenMint: tokenCa,
         lastDistribution: null,
         minimumHolderPercentage: "0.5",

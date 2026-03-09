@@ -61,7 +61,7 @@ async function getDistributionLogs(limit = 50): Promise<{ id: string; transactio
 const RPC = process.env.HELIUS_RPC_URL || process.env.SOLANA_RPC || "https://api.mainnet-beta.solana.com";
 const PUMP_PROGRAM_ID = new PublicKey("6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P");
 const PUMP_FEE_PROGRAM_ID = new PublicKey("pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ");
-const GOLD_MINT = new PublicKey("GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A");
+const OIL_MINT = new PublicKey("rpydAzWdCy85HEmoQkH5PVxYtDYQWjmLxgHHadxondo");
 
 /** Anchor: first 8 bytes of sha256("global:collect_creator_fee"). */
 const COLLECT_CREATOR_FEE_DISCRIMINATOR = Buffer.from(
@@ -152,7 +152,7 @@ async function getFeesConvertedToGold(devWalletAddress: string): Promise<number>
   try {
     const connection = new Connection(RPC, "confirmed");
     const wallet = new PublicKey(devWalletAddress);
-    const goldMintStr = GOLD_MINT.toBase58();
+    const oilMintStr = OIL_MINT.toBase58();
     const sigs = await connection.getSignaturesForAddress(wallet, { limit: MAX_SIGNATURES });
     let totalGold = 0;
     const toParse = sigs.slice(0, MAX_PARSED_TXS);
@@ -167,7 +167,7 @@ async function getFeesConvertedToGold(devWalletAddress: string): Promise<number>
           ])
         );
         for (const post of tx.meta.postTokenBalances as { mint: string; owner: string; uiTokenAmount?: { uiAmount?: number | string } }[]) {
-          if (post.mint !== goldMintStr || post.owner !== devWalletAddress) continue;
+          if (post.mint !== oilMintStr || post.owner !== devWalletAddress) continue;
           const pre = preByKey.get(`${post.mint}:${post.owner}`) ?? 0;
           const postVal = toNum(post.uiTokenAmount?.uiAmount);
           const delta = postVal - pre;
@@ -239,7 +239,7 @@ function buildApp() {
               totalProtocolFees,
               feesConvertedToGold,
               totalBurned: 0,
-              goldMint: "GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A",
+              goldMint: "rpydAzWdCy85HEmoQkH5PVxYtDYQWjmLxgHHadxondo",
               tokenMint: tokenCa,
               lastDistribution: null,
               minimumHolderPercentage: "0.5",

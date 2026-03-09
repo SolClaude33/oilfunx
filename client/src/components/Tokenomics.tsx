@@ -39,10 +39,10 @@ export function Tokenomics() {
               <div className="w-20 h-20 bg-black rounded-full flex items-center justify-center mb-4 border-4 border-white">
                 <Coins className="w-10 h-10 text-metal-gold" />
               </div>
-              <h3 className="text-2xl font-black text-black mb-2 uppercase">Gold Dividends</h3>
+              <h3 className="text-2xl font-black text-black mb-2 uppercase">OIL Dividends</h3>
               <div className="text-5xl font-black text-white mb-3 drop-shadow-[4px_4px_0px_rgba(0,0,0,1)]">70%</div>
               <p className="text-black font-serif font-bold text-base leading-relaxed border-y-2 border-black py-3 mb-3">
-                Creator fees converted to tokenized gold and distributed hourly to major holders.
+                Creator fees converted to tokenized OIL and distributed hourly to major holders.
               </p>
               <div className="mt-auto pt-3 w-full">
                  <div className="w-full bg-white h-3 mt-2 border-2 border-black overflow-hidden relative">
@@ -65,7 +65,7 @@ export function Tokenomics() {
               <h3 className="text-2xl font-black text-metal-gold mb-2 uppercase">Token Buybacks</h3>
               <div className="text-5xl font-black text-white mb-3 drop-shadow-[4px_4px_0px_rgba(0,0,0,0.5)]">20%</div>
               <p className="text-zinc-300 font-serif font-bold text-base leading-relaxed border-y-2 border-zinc-600 py-3 mb-3">
-                Creator fees used to buy GoldFunX from the market, supporting the token price.
+                Creator fees used to buy OilFunX from the market, supporting the token price.
               </p>
               <div className="mt-auto pt-3 w-full">
                  <div className="w-full bg-zinc-700 h-3 mt-2 border-2 border-zinc-600 overflow-hidden relative">
@@ -85,7 +85,7 @@ export function Tokenomics() {
               <div className="w-20 h-20 bg-green-600 rounded-full flex items-center justify-center mb-4 border-4 border-border">
                 <TrendingUp className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-2xl font-black text-foreground mb-2 uppercase">Gold Vault</h3>
+              <h3 className="text-2xl font-black text-foreground mb-2 uppercase">OIL Vault</h3>
               <div className="text-5xl font-black text-green-600 mb-3 drop-shadow-[2px_2px_0px_var(--color-border)]">10%</div>
               <p className="text-foreground font-serif font-bold text-base leading-relaxed border-y-2 border-border py-3 mb-3">
                 A value reserve for the project. Stores protocol-owned liquidity and backs long-term growth.
@@ -102,7 +102,7 @@ export function Tokenomics() {
         
         <div className="mt-16 text-center border-t-4 border-border pt-8 max-w-2xl mx-auto">
             <p className="text-xl font-mono text-foreground mb-4 font-bold bg-metal-gold text-black inline-block px-4 py-1 border-2 border-black">
-              Total fees distributed: {totalFees.toFixed(4)} GOLD
+              Total fees distributed: {totalFees.toFixed(4)} OIL
             </p>
             <p className="text-sm text-muted-foreground font-serif italic mb-6">
                 {stats?.tokenMint 
@@ -110,7 +110,7 @@ export function Tokenomics() {
                   : "Distributions will begin automatically when the token launches. No staking required."}
             </p>
             <a 
-              href="https://x.com/goldfunx6900" 
+              href="https://x.com/Oilfunx" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white font-bold uppercase tracking-wider hover:bg-zinc-800 transition-colors border-2 border-border"

@@ -30,7 +30,7 @@ export interface IStorage {
 const DEFAULT_CONFIG: ProtocolConfig = {
   id: "config",
   tokenMint: null,
-  goldMint: "GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A",
+  goldMint: "rpydAzWdCy85HEmoQkH5PVxYtDYQWjmLxgHHadxondo",
   creatorWallet: null,
   minimumHolderPercentage: "0.5",
   mediumHolderMinPercentage: "0.1",

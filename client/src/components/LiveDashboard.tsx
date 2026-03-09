@@ -96,7 +96,7 @@ export function LiveDashboard() {
                <div className="w-3 h-3 rounded-full bg-yellow-500 border border-yellow-700 dark:border-yellow-500 dark:bg-yellow-500/20"></div>
                <div className="w-3 h-3 rounded-full bg-green-500 border border-green-700 dark:border-green-500 dark:bg-green-500/20"></div>
              </div>
-             <span className="text-black dark:text-green-500 font-bold">GOLDFUNX_MONITOR_V2.1</span>
+             <span className="text-black dark:text-green-500 font-bold">OILFUNX_MONITOR_V2.1</span>
           </div>
           <div className="flex gap-4 text-[10px] md:text-xs text-green-800 dark:text-green-600 uppercase tracking-wider font-bold">
              {isLive && countdown && (
@@ -120,16 +120,16 @@ export function LiveDashboard() {
                 {formatSmall((stats?.totalProtocolFees ?? 0), 6)}
               </div>
               <div className="text-xs text-black dark:text-green-600 font-bold bg-green-200 dark:bg-transparent dark:text-green-500 inline-block px-2 py-0.5 border border-black dark:border-none uppercase">
-                {stats?.tokenMint ? "ACTIVE" : "PENDING"} | {stats?.goldDistributionPercentage || "70"}% → $GOLD
+                {stats?.tokenMint ? "ACTIVE" : "PENDING"} | {stats?.goldDistributionPercentage || "70"}% → $OIL
               </div>
             </div>
 
             <div className="w-full h-px bg-black dark:bg-green-900 opacity-10 dark:opacity-30" />
 
             <div className="space-y-2">
-              <h3 className="text-black dark:text-metal-gold text-xs uppercase tracking-widest mb-1 font-bold">Fees Converted to Gold</h3>
+              <h3 className="text-black dark:text-metal-gold text-xs uppercase tracking-widest mb-1 font-bold">Fees Converted to OIL</h3>
               <div className="text-4xl font-black text-black dark:text-metal-gold tracking-tighter tabular-nums" data-testid="text-fees-gold">
-                {formatSmall(stats?.feesConvertedToGold ?? stats?.totalGoldDistributed ?? 0, 6)} <span className="text-lg text-black/50 dark:text-metal-gold/50 font-normal">OZ</span>
+                {formatSmall(stats?.feesConvertedToGold ?? stats?.totalGoldDistributed ?? 0, 6)} <span className="text-lg text-black/50 dark:text-metal-gold/50 font-normal">BARREL</span>
               </div>
               <div className="w-full bg-white dark:bg-green-900/20 h-3 mt-2 border-2 border-black dark:border-none overflow-hidden rounded-full dark:rounded-none">
                 <div className="h-full bg-metal-gold" style={{ width: `${stats?.goldDistributionPercentage || 70}%` }}></div>
@@ -141,7 +141,7 @@ export function LiveDashboard() {
             <div className="space-y-2">
               <h3 className="text-black dark:text-blue-400 text-xs uppercase tracking-widest mb-1 font-bold">Token Buybacks ({stats?.buybackPercentage || "20"}%)</h3>
               <div className="text-3xl font-black text-blue-600 dark:text-blue-400 tracking-tighter tabular-nums" data-testid="text-buyback">
-                {(stats?.totalTokenBuyback || 0).toFixed(2)} GOLDFUNX
+                {(stats?.totalTokenBuyback || 0).toFixed(2)} OILFUNX
               </div>
               <div className="text-xs text-blue-700 dark:text-blue-400 font-bold bg-blue-100 dark:bg-transparent inline-block px-2 py-0.5 border border-blue-200 dark:border-none uppercase">
                 {stats?.majorHoldersPercentage || "70"}% Major | {stats?.mediumHoldersPercentage || "20"}% Token Buybacks | {stats?.buybackPercentage || "20"}% Buyback
@@ -150,21 +150,21 @@ export function LiveDashboard() {
 
             <div className="mt-auto pt-6 space-y-3">
                <div className="flex justify-between text-xs text-black dark:text-green-800 font-bold uppercase items-center gap-2">
-                  <span>$GOLD_CONTRACT</span>
+                  <span>$OIL_CONTRACT</span>
                   <a 
-                    href={`https://solscan.io/token/${stats?.goldMint}`}
+                    href="https://solscan.io/token/rpydAzWdCy85HEmoQkH5PVxYtDYQWjmLxgHHadxondo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-mono hover:text-metal-gold flex items-center gap-1 break-all text-right max-w-[70%]"
                   >
-                    {stats?.goldMint || "GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A"}
+                    rpydAzWdCy85HEmoQkH5PVxYtDYQWjmLxgHHadxondo
                     <ExternalLink className="w-3 h-3 shrink-0" />
                   </a>
                </div>
-               <div className="flex justify-between text-xs text-black dark:text-green-800 font-bold uppercase">
+               <div className="flex justify-between text-xs text-black dark:text-green-800 font-bold uppercase items-center gap-2">
                   <span>TOKEN_CA</span>
-                  <span className="font-mono">
-                    {stats?.tokenMint ? `...${stats.tokenMint.slice(-4)}` : "SOON"}
+                  <span className="font-mono break-all text-right">
+                    {stats?.tokenMint || "SOON"}
                   </span>
                </div>
             </div>
@@ -202,7 +202,7 @@ export function LiveDashboard() {
                      </div>
                      <div className="flex items-center gap-4 flex-wrap">
                        <span className="font-bold tabular-nums text-black dark:text-green-100">
-                         {entry.goldDistributed.toFixed(4)} GOLD
+                         {entry.goldDistributed.toFixed(4)} OIL
                        </span>
                        {entry.transaction ? (
                          <a

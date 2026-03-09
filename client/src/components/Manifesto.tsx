@@ -20,19 +20,19 @@ export function Manifesto() {
             
             <div className="space-y-8 text-xl md:text-2xl leading-relaxed font-medium">
               <p>
-                <span className="float-left text-7xl font-black mr-4 mt-[-10px]">T</span>he year is 2025. Gold is at $4,530. The dollar is dissolving into digital dust. The suits at Wall Street are panicking. They told you inflation was "transitory". They lied.
+                <span className="float-left text-7xl font-black mr-4 mt-[-10px]">T</span>he year is 2025. OIL is the new store of value. The dollar is dissolving into digital dust. The suits at Wall Street are panicking. They told you inflation was "transitory". They lied.
               </p>
               <p>
-                <span className="bg-foreground text-background px-2 font-bold transform -rotate-1 inline-block">GoldFunX6900</span> isn't just a memecoin. It's an index fund for the end of the world. It's a bet on the shiny rock that has outlasted every empire in history.
+                <span className="bg-foreground text-background px-2 font-bold transform -rotate-1 inline-block">OilFunX</span> isn't just a memecoin. It's an index fund for the end of the world. It's a bet on energy that powers every economy in history.
               </p>
               <p>
-                While other coins offer you dreams of dogs in hats, we offer you the heavy, cold, hard reality of <strong className="underline decoration-4 decoration-metal-gold">REAL GOLD</strong>. But on the blockchain. With 100x leverage on culture.
+                While other coins offer you dreams of dogs in hats, we offer you the heavy, liquid reality of <strong className="underline decoration-4 decoration-metal-gold">REAL OIL</strong>. But on the blockchain. With 100x leverage on culture.
               </p>
               
               <div className="bg-muted p-8 border-l-8 border-border font-sans mt-12">
                 <p className="text-sm font-bold text-muted-foreground uppercase tracking-widest mb-4">MISSION DIRECTIVE</p>
                 <ol className="list-decimal list-inside space-y-2 font-black text-2xl uppercase">
-                  <li>ACCUMULATE GOLD</li>
+                  <li>ACCUMULATE OIL</li>
                   <li>BURN THE SUPPLY</li>
                   <li>ASCEND</li>
                 </ol>

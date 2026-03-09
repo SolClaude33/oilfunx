@@ -64,7 +64,7 @@ export type HolderSnapshot = typeof holderSnapshots.$inferSelect;
 export const protocolConfig = pgTable("protocol_config", {
   id: varchar("id").primaryKey().default("config"),
   tokenMint: text("token_mint"),
-  goldMint: text("gold_mint").default("GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A"),
+  goldMint: text("gold_mint").default("rpydAzWdCy85HEmoQkH5PVxYtDYQWjmLxgHHadxondo"),
   creatorWallet: text("creator_wallet"),
   minimumHolderPercentage: numeric("minimum_holder_percentage").default("0.5"),
   mediumHolderMinPercentage: numeric("medium_holder_min_percentage").default("0.1"),

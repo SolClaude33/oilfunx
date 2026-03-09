@@ -16,7 +16,7 @@ export function Narrative() {
             >
                <img 
                  src={chartImg} 
-                 alt="Gold vs Dollar Chart" 
+                 alt="OIL vs Dollar Chart" 
                  className="relative z-10 w-full transition-all duration-500"
                />
                <div className="absolute top-4 left-4 bg-destructive text-destructive-foreground font-black px-4 py-2 border-2 border-white transform -rotate-2 z-20 text-xl">
@@ -41,13 +41,13 @@ export function Narrative() {
               className="space-y-6 text-foreground text-xl leading-relaxed font-serif"
             >
               <p>
-                <strong className="bg-metal-gold text-black px-1 border border-border">Gold hit $4,530.</strong> This isn't just a number. It's a signal. The signal that the 50-year experiment of fiat currency is coming to an end.
+                <strong className="bg-metal-gold text-black px-1 border border-border">OIL is the new hedge.</strong> This isn't just a meme. It's a signal. The signal that the 50-year experiment of fiat currency is coming to an end.
               </p>
               <p>
                 Governments are printing trillions. Your purchasing power is being stolen every second you hold cash. They call it "Quantitative Easing". We call it theft.
               </p>
               <p>
-                <strong className="bg-foreground text-background px-1">GoldFunX6900</strong> is the answer. We don't just meme about wealth. We capture it. By automatically converting fees into REAL tokenized Gold on the blockchain, we build a floor that cannot be rugged.
+                <strong className="bg-foreground text-background px-1">OilFunX</strong> is the answer. We don't just meme about wealth. We capture it. By automatically converting fees into REAL tokenized OIL on the blockchain, we build a floor that cannot be rugged.
               </p>
             </motion.div>
 

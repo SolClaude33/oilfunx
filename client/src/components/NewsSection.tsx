@@ -12,12 +12,12 @@ export function NewsSection() {
       views: "1.2M Views"
     },
     {
-      title: "WHY GOLD? WHY NOW?",
+      title: "WHY OIL? WHY NOW?",
       duration: "2:20",
       views: "850K Views"
     },
     {
-      title: "GOLDFUNX6900 EXPLAINED",
+      title: "OILFUNX EXPLAINED",
       duration: "1:15",
       views: "2.5M Views"
     }
@@ -30,7 +30,7 @@ export function NewsSection() {
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-end border-b-4 border-border pb-6 mb-12">
           <h2 className="text-6xl md:text-8xl font-black tracking-tighter uppercase leading-[0.8] text-foreground">
-            THE GOLD<br/>TIMES
+            THE OIL<br/>TIMES
           </h2>
           <div className="text-right font-mono font-bold mt-4 md:mt-0 text-foreground">
              <p>VOL. 69</p>
@@ -57,7 +57,7 @@ export function NewsSection() {
                 </a>
               </h3>
               <p className="text-xl md:text-2xl font-serif text-muted-foreground leading-relaxed mb-6">
-                In a moment of awakening that could redefine global finance, millions are realizing that green paper is just paper. GoldFunX6900 represents the paradigm shift back to hard assets, but with the speed of Solana.
+                In a moment of awakening that could redefine global finance, millions are realizing that green paper is just paper. OilFunX represents the paradigm shift back to energy assets, but with the speed of Solana.
               </p>
               
               <div className="relative aspect-video w-full bg-card overflow-hidden group border-2 border-border shadow-[8px_8px_0px_0px_var(--color-border)] dark:shadow-none">
@@ -78,7 +78,7 @@ export function NewsSection() {
                <ul className="space-y-4 font-bold font-mono text-sm">
                  <li className="flex items-center gap-2 hover:underline cursor-pointer">
                    <ArrowRight className="w-4 h-4" /> 
-                   <a href="https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024/central-banks" target="_blank" rel="noopener noreferrer">THE SECRET TO LIFE IS GOLD</a>
+                   <a href="https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2024/central-banks" target="_blank" rel="noopener noreferrer">THE SECRET TO LIFE IS OIL</a>
                  </li>
                  <li className="flex items-center gap-2 hover:underline cursor-pointer">
                    <ArrowRight className="w-4 h-4" /> 
@@ -108,7 +108,7 @@ export function NewsSection() {
                  </div>
                </div>
                <p className="font-mono text-sm text-muted-foreground mb-2">NOW PLAYING:</p>
-               <p className="font-bold text-lg leading-tight">"WE ARE SO BACK" - THE GOLDFUNX DOCUMENTARY</p>
+               <p className="font-bold text-lg leading-tight">"WE ARE SO BACK" - THE OILFUNX DOCUMENTARY</p>
             </div>
 
           </div>
@@ -118,7 +118,7 @@ export function NewsSection() {
         <div className="space-y-6">
            <div className="flex flex-col md:flex-row justify-between items-end border-b-2 border-border pb-2">
              <div>
-               <h4 className="font-bold text-3xl uppercase text-destructive">GOLD TV</h4>
+               <h4 className="font-bold text-3xl uppercase text-destructive">OIL TV</h4>
                <p className="font-mono text-sm text-muted-foreground uppercase tracking-widest">Live Coverage</p>
              </div>
              <div className="flex items-center gap-2">
@@ -162,7 +162,7 @@ export function NewsSection() {
                     Breaking
                   </div>
                 </div>
-                <h5 className="font-bold text-lg leading-tight group-hover:text-metal-gold transition-colors">GOLD TO THE MOON?</h5>
+                <h5 className="font-bold text-lg leading-tight group-hover:text-metal-gold transition-colors">OIL TO THE MOON?</h5>
                 <p className="text-xs font-mono text-muted-foreground mt-1">BLOOMBERG • 850K VIEWS</p>
               </div>
 
@@ -188,7 +188,7 @@ export function NewsSection() {
 
            <div className="bg-metal-gold/10 border-l-4 border-metal-gold p-4 mt-8">
              <p className="font-bold text-xl uppercase italic">
-               "We are literally giving you GOLD. Hold the token, get paid in real assets. Inflation is theft, GoldFunX is the vault."
+               "We are literally giving you OIL. Hold the token, get paid in real assets. Inflation is theft, OilFunX is the vault."
              </p>
            </div>
         </div>

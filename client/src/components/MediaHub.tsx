@@ -9,12 +9,12 @@ export function MediaHub() {
       views: "1.2M Views"
     },
     {
-      title: "WHY GOLD? WHY NOW?",
+      title: "WHY OIL? WHY NOW?",
       duration: "2:20",
       views: "850K Views"
     },
     {
-      title: "GOLDFUNX6900 EXPLAINED",
+      title: "OILFUNX EXPLAINED",
       duration: "1:15",
       views: "2.5M Views"
     }
@@ -25,7 +25,7 @@ export function MediaHub() {
       <div className="container mx-auto px-4">
          <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
             <div>
-               <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">GOLD TV</h2>
+               <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">OIL TV</h2>
                <p className="text-gray-400 font-mono">Uncensored financial truth. Watch before they delete it.</p>
             </div>
             <div className="flex gap-2">
